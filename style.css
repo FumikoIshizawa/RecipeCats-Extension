@@ -1,9 +1,13 @@
 @charset "UTF-8";
 
-body {
-  font-family: "Roboto", "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", 'メイリオ', Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  width: 320px;
-  margin: 20px;
+.demo-card-wide.mdl-card {
+  width: 512px;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 100px;
+  background-color: #0055BB;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
 }
