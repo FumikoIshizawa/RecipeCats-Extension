@@ -8,6 +8,17 @@
   height: 100px;
   background-color: #0055BB;
 }
-.demo-card-wide > .mdl-card__menu {
-  color: #fff;
+
+#recipe_title {
+	width: 350px;
+	margin-left: 10px;
+}
+
+#recipe_url {
+	width: 350px;
+	margin-left: 10px;
+}
+
+#execute {
+	margin-left: 400px;
 }
